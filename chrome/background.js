@@ -1,5 +1,5 @@
 // Update this after deploying to Render
-const API_URL = 'https://REPLACE-WITH-YOUR-RENDER-URL.onrender.com'
+const API_URL = 'https://phishguard-wjvk.onrender.com'
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.action === 'getPrediction') {

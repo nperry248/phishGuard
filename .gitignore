@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 webserver/backend-env/
+webserver/env/
 KeyPairs/
 Presentation/
 dataset.csv

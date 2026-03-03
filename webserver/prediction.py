@@ -96,7 +96,7 @@ def run(url):
         df = pd.DataFrame(data)
         prediction = model.predict(df)
 
-    except requests.exceptions.ConnectionError:
+    except Exception:
         prediction = [1]
 
     return bool(prediction[0]) if hasattr(prediction, '__len__') else bool(prediction)
